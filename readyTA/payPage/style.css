@@ -1,0 +1,71 @@
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  /*background-color: #8EC5FC;*/
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#content {
+  margin: 20px;
+}
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.box p {
+  margin: 0;
+}
+.box h3 {
+  margin-top: 20px;
+}
+.payment-methods label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.payment-methods input[type="radio"] {
+  margin-right: 10px;
+}
+.payment-methods input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.payment-methods input[type="submit"]:hover {
+  background-color: #555;
+}
+.bayar{
+  border-radius: 5px;
+  width: 15%;
+  height: 35px;
+  color: white;
+  background-color: #01831d;
+}
+.kembali{
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  border-radius: 5px;
+  width: 15%;
+  color: white;
+  background-color: #c90101;
+}
